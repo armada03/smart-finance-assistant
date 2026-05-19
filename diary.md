@@ -9,19 +9,18 @@ This file shows sample entries for your **Developer's Diary**. You must document
 
 ---
 
-## Foundation Skills Examples
+Entry 1
 
-### Entry 1 – Effective AI Prompting for Business Data
-**Artifact:** Screenshot of ChatGPT conversation about analyzing spending data.
+## Week 8 – Budget Buddy Planning and Six-Step Method
 
-**My Initial Prompt:** "Help me analyze CSV data with pandas"
+**Artifact:**  
+![Week 8 AI Evidence](AI-CONVERSATIONS/week8_budget_buddy_planning.png)
 
-**My Improved Prompt:** "I'm building a Smart Finance Assistant. I have a CSV with Date, Amount, Category, Description columns. The Amount has dollar signs that need cleaning. I want to calculate total spending by category and format results for a business presentation. Please write pandas code with clear comments."
+**Context:**  
+I used AI to help choose a Budget Buddy theme and complete the planning stages of the six-step development methodology.
 
-**Context:** Learning to write specific, business-focused AI prompts.
-
-**Reflection:** The first prompt gave me generic pandas code. The improved prompt with business context got me professional, commented code that handled data cleaning. I learned that AI needs clear business context and output requirements to give useful results. Now I always include: data structure, business purpose, and desired output format.
-
+**Reflection:**  
+AI helped me break the assignment into a clear finance problem, inputs and outputs, manual calculations, and pseudocode. The main improvement was changing the starter template into my own project-specific plan instead of leaving generic placeholder text. AI also helped me avoid formatting issues in Colab by using AUD instead of dollar signs in markdown. I learned that AI is most useful when I provide the project context and then review the output before adding it to my notebook.
 ---
 
 ### Entry 2 – Critiquing and Improving AI Code
