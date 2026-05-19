@@ -14,15 +14,15 @@ Entry 1
 ## Week 8 – Budget Buddy Planning and Six-Step Method
 
 **Artifact:**  
-![Budget Buddy Planning 1](AI-CONVERSATIONS/budgetbuddy_planning%201.png)
+![Budget Buddy Planning 1](AI-CONVERSATIONS/AI%20EVIDENCE/budgetbuddy_planning%201.png)
 
-![Budget Buddy Planning 2](AI-CONVERSATIONS/budgetbuddy_planning%202.png)
+![Budget Buddy Planning 2](AI-CONVERSATIONS/AI%20EVIDENCE/budgetbuddy_planning%202.png)
 
-![Budget Buddy Planning Structure 1](AI-CONVERSATIONS/budgetbuddy_planning%20structure%201.png)
+![Budget Buddy Planning Structure 1](AI-CONVERSATIONS/AI%20EVIDENCE/budgetbuddy_planning%20structure%201.png)
 
-![Budget Buddy Planning Structure 2](AI-CONVERSATIONS/budgetbuddy_planning%20structure%202.png)
+![Budget Buddy Planning Structure 2](AI-CONVERSATIONS/AI%20EVIDENCE/budgetbuddy_planning%20structure%202.png)
 
-![Budget Buddy Planning Structure 3](AI-CONVERSATIONS/budgetbuddy_planning%20structure%203.png)
+![Budget Buddy Planning Structure 3](AI-CONVERSATIONS/AI%20EVIDENCE/budgetbuddy_planning%20structure%203.png)
 
 **Context:**  
 I used AI to help choose a Budget Buddy theme and complete the planning stages of the six-step development methodology.
