@@ -31,32 +31,22 @@ I used AI to help choose a Budget Buddy theme and complete the planning stages o
 AI helped me break the assignment into a clear finance problem, inputs and outputs, manual calculations, and pseudocode. The main improvement was changing the starter template into my own project-specific plan instead of leaving generic placeholder text. AI also helped me avoid formatting issues in Colab by using AUD instead of dollar signs in markdown. I learned that AI is most useful when I provide the project context and then review the output before adding it to my notebook.
 ---
 
-### Entry 2 – Critiquing and Improving AI Code
-**Artifact:** Before/after screenshots of AI-generated spending analysis code.
+### Entry 2 
+## Week 9 – Data Cleaning and Spending Analysis
 
-**Context:** AI gave me complex code that was hard to understand for my transaction analysis.
+**Artifact:**
 
-**AI's First Response:**
-```python
-df.groupby('Category')['Amount'].agg({'sum','mean','count'}).round(2)
-```
+![Budget Buddy Code Cleaning](AI-CONVERSATIONS/AI%20EVIDENCE/budgetbuddy_code%20cleaning.png)
 
-**My Critique:** "This code is unclear and doesn't handle dollar signs. Can you make it more readable with business-friendly variable names and add data cleaning?"
+![Budget Buddy Output](AI-CONVERSATIONS/AI%20EVIDENCE/budgetbuddy_output.png)
 
-**AI's Improved Response:**
-```python
-# Clean amount data by removing dollar signs
-df['Amount_Clean'] = pd.to_numeric(df['Amount'].str.replace('$', ''), errors='coerce')
+![Budget Buddy Spending Analysis Function](AI-CONVERSATIONS/AI%20EVIDENCE/budgetbuddy_spending%20analysis%20function.png)
 
-# Calculate spending metrics by category
-spending_summary = df.groupby('Category')['Amount_Clean'].agg({
-    'Total_Spent': 'sum',
-    'Average_Amount': 'mean', 
-    'Transaction_Count': 'count'
-}).round(2)
-```
+**Context:**  
+I used AI to help implement and test the first Python functions for Budget Buddy, including transaction data cleaning and spending analysis.
 
-**Reflection:** I learned that AI's first response isn't always the best. By asking for clearer variable names and business context, I got much better code. This taught me to always review AI code and ask for improvements rather than accepting the first solution.
+**Reflection:**  
+AI helped me replace the starter template's placeholder code with working pandas functions. The data cleaning function converted dollar amounts into numeric values, converted dates into datetime format, and checked that required columns were present. I then tested the spending analysis function using `transactions.csv`, which produced category totals, average transactions, refund totals and spending percentages. I learned that testing each function immediately makes debugging easier and helps confirm that the assistant is producing meaningful finance insights.
 
 ---
 
