@@ -49,17 +49,26 @@ I used AI to help implement and test the first Python functions for Budget Buddy
 AI helped me replace the starter template's placeholder code with working pandas functions. The data cleaning function converted dollar amounts into numeric values, converted dates into datetime format, and checked that required columns were present. I then tested the spending analysis function using `transactions.csv`, which produced category totals, average transactions, refund totals and spending percentages. I learned that testing each function immediately makes debugging easier and helps confirm that the assistant is producing meaningful finance insights.
 
 ---
+### Entry 2.1
+## Week 9 – Financial Recommendation + Updated decimal place (adding code)
 
-### Entry 3 – Business Context in AI Interactions
-**Artifact:** Screenshot of Gemini generating financial insights from data.
+**Artifact:**
 
-**Context:** I wanted AI to help generate business recommendations from spending analysis.
+![Budget Buddy 2 Decimal Code](AI-CONVERSATIONS/AI%20EVIDENCE/budgetbuddy_%202%20decimal%20code.png)
 
-**My Prompt:** "Based on this spending analysis showing Groceries: $450, Dining: $380, Coffee: $120, Transport: $95, create business insights and savings recommendations that sound professional for a personal finance app."
+![Budget Buddy 2 Decimal Place Code](AI-CONVERSATIONS/AI%20EVIDENCE/budgetbuddy_2%20decimal%20place%20code.png)
 
-**AI Response:** Generated specific recommendations like "Consider meal planning to reduce dining expenses" and "Coffee purchases represent 8% of total spending - consider brewing at home."
+![Budget Buddy Decimal Update](AI-CONVERSATIONS/AI%20EVIDENCE/budgetbuddy_decimal%20update.png)
 
-**Reflection:** When I include business context and specify the audience (personal finance app users), AI generates much more relevant and professional output. I learned that framing requests in business terms gets business-quality responses. Now I always think about who will read the output and what decisions they need to make.
+![Budget Buddy Financial Recommendation](AI-CONVERSATIONS/AI%20EVIDENCE/budgetbuddy_finanical%20recommendation.png)
+
+**Context:**  
+I used AI to help implement the main Budget Buddy data pipeline: cleaning transaction data, analysing spending patterns, and generating financial recommendations.
+
+**Reflection:**  
+AI helped me turn the starter template into working Python functions. The cleaning function converted dollar values into numeric amounts and converted dates into datetime format. The spending analysis function grouped transactions by category and calculated totals, averages, transaction counts and percentages. The recommendation function then used those results to generate a readable Budget Buddy report. I tested the output using `transactions.csv` and confirmed that Groceries was correctly identified as the highest spending category. I learned that separating the project into cleaning, analysis and reporting functions made the code easier to test and improve.
+
+I also used AI to refine the spending summary formatting by rounding currency and percentage values to two decimal places. This improved the readability of the recommendation report and made the output look more professional for a finance assistant.
 
 ---
 
