@@ -36,7 +36,7 @@ AI helped me break the assignment into a clear finance problem, inputs and outpu
 
 **Artifact:**
 
-![Budget Buddy Code Cleaning](AI-CONVERSATIONS/AI%20EVIDENCE/budgetbuddy_code%20cleaning.png)
+![Budget Buddy Code Cleaning](AI-CONVERSATIONS/AI%20EVIDENCE/budgetbuddy_code%20cleaning%20.png)
 
 ![Budget Buddy Output](AI-CONVERSATIONS/AI%20EVIDENCE/budgetbuddy_output.png)
 
